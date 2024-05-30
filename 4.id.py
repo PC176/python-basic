@@ -1,0 +1,34 @@
+#address
+a=10
+print(id(a))
+b=10
+print(id(b))
+print(id(10))
+a=9
+b=a
+print(id(b))
+print(id("aaaa"))
+print(type("aaaa"))
+print(type(a))
+a=2
+print(id(a))
+b=3
+print(id(b))
+t=a
+a=b
+b=t
+print(a)
+print(b)
+print(id(a))
+print(id(b))
+a=3
+b=4
+#swap by stack
+a,b=b,a
+print(a)
+print(b)
+#swap without 3rd variable
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
